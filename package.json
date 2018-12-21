@@ -2,6 +2,9 @@
   "name": "repos",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=10.13.0"
+  },
   "scripts": {
     "test": "jest",
     "dev": "micro-dev",
