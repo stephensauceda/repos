@@ -1,7 +1,4 @@
 {
-  "version": 2,
-  "alias": "repos.stephensauceda.com",
-  "builds": [
-    { "src": "index.js", "use": "@now/node" }
-  ]
+  "version": 1,
+  "alias": "repos.stephensauceda.com"
 }
