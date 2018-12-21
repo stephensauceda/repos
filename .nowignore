@@ -1,0 +1,4 @@
+node_modules
+lib/index.spec.js
+.eslintrc.js
+.DS_Store

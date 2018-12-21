@@ -1,0 +1,26 @@
+{
+  "name": "repos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "micro-dev",
+    "start": "micro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "micro": "^9.3.3",
+    "ms": "^2.1.1",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "@stephensauceda/eslint-config": "^11.0.3",
+    "eslint": "^5.10.0",
+    "jest": "^23.6.0",
+    "jest-fetch-mock": "^2.1.0",
+    "micro-dev": "^3.0.0"
+  }
+}
