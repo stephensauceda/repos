@@ -9,12 +9,12 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8]
+        node-version: [10]
 
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: docker://node:8-alpine
+      uses: docker://node:10-alpine
       with:
         node-version: ${{ matrix.node-version }}
     - name: yarn install, build, and test
